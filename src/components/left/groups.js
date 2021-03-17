@@ -6,7 +6,7 @@ export default function groupsComponent(props) {
         <>
             <GroupContainer>
                 <Img>
-                    <img src={process.env.PUBLIC_URL+item.image} />
+                    <img src={item.image} />
                 </Img>
                 <Name> {item.name} </Name>
             </GroupContainer>

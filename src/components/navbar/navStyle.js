@@ -4,7 +4,7 @@ const maxWidth = 500;
 export const Header = styled.div `
         padding:2% 5% ;
         display: flex;
-        background: #f2f7fb;
+        background: #fff;
         position: fixed;
         right: 0px;
         left: 0px;
@@ -26,7 +26,7 @@ display:inline-block;
 `
 export const Up = styled.div `
 transition: 0.5s;
-background: #f2f7fb;
+background: #fff;
 padding: 10px;
 position: absolute;
 right: 50%;

@@ -7,18 +7,12 @@ const popup = keyframes`
 
 export const Open = styled.div`
 position: absolute;
-background: #FFF;
 top: 30%;
 left: -10%;
 width: 30px;
 height: 30px;
-clip-path:polygon(73.33% -23.33%, 70% 106.66%, 50% 100%, 0% 50%);
-&>img{
-  width:100%;
-  border-radius:50%;
-  transform:rotate(90deg);
-  
-}
+border-radius:50%;
+
 `
 export  const ChatContainer  = styled.div`
 width:70%;
@@ -56,7 +50,7 @@ text-align: right;
 export  const ImgContainer = styled.div`
 width:25%;
 height: 40px;
-img{
+svg,img{
   width:40px;
   height:40px;
   border-radius: 50%;

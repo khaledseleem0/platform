@@ -6,7 +6,7 @@ export default function Notificationitem(props) {
         <>
             <NotificationItem>
                 <NotificationItemImg>
-                    <img src={process.env.PUBLIC_URL+notifications.image} />
+                    <img src={notifications.image} />
                   </NotificationItemImg>
                   <NotificationItemDiscription>
                      

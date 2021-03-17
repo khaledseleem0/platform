@@ -6,8 +6,8 @@ export default function Story(props) {
     return (
         <>
             <Stories>
-            <Img src={process.env.PUBLIC_URL+item} />
-            <Name> sami </Name>
+            <Img src={item.image} />
+            <Name> {item.name}  </Name>
             </Stories>
         </>
     )

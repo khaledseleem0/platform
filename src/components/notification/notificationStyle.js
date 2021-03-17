@@ -1,11 +1,12 @@
 
 import styled from 'styled-components';
 import {width} from './../getter';
+import {Main_Color} from './../getter';
 
 export const NotificationContainer = styled.div`
 width:70vw;
 padding:1%;
-background:#edffec;
+background:${Main_Color};
 float: right;
 height: 100vh;
 overflow-y:scroll;
@@ -22,7 +23,7 @@ padding:2%;
 export const NotificationItem  = styled.div`
 padding:2%;
 width:100%;
-background: #fdfdfd;
+background: #ffff;
 display: flex;
 justify-content: space-between;
 flex: 4;

@@ -7,6 +7,7 @@ import Chat from './../chat/chat'
 import Requests from './../requests/requests';
 import {width,maximam} from './../getter';
 import Nav from './../navbar/nav';
+import LoadingPage from './../loading/load' 
 export default function Index  (props){
  
     return (
@@ -20,8 +21,9 @@ export default function Index  (props){
           {width < maximam? <Route path={"/messages"} component={Left} exact></Route> : ""}
           {width ? <Route path={"/platform"} component={Feed} exact></Route>:""}
           {width > maximam? <Route path={"/messages"+"/:chat"} component={Chat} exact></Route> : <Route path={"/messages"+"/:chat"} component={Chat} ></Route>}
+         
           </Switch>
-           </BrowserRouter>
+        </BrowserRouter>
             </>
         )
    

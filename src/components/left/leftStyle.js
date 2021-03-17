@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import {Main_Color} from './../getter';
 export const RightContaier = styled.div `
 width: 30%;
-background: #ebffea;
+background: ${Main_Color};
 display: flex;
 height: 100vh;
 flex-flow: column;
@@ -125,7 +126,7 @@ width: 50px;
 // menu more 
 
 export const MoreMenu  = styled.div`
-width: 25vw;
+width: 90%;
 position: absolute;
 bottom: 0%;
 transform: translateY(100%);
@@ -137,7 +138,7 @@ flex-flow: column;
 text-align: right;
 background: #FFF;
 padding:2%;
-width: 90%;
+
 border: 2px solid #edffec;
 transition: 0.5s;
 clip-path:circle(0% at 0% 0%);
@@ -149,8 +150,9 @@ display: flex;
 justify-content: space-around;
 width: 90%;
 padding: 2% 0%;
-
+align-items: center;
     &>a{
+       
         text-decoration:none;
 
     }
